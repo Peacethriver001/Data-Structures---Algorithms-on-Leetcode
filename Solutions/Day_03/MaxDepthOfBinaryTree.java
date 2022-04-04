@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 /*
 ************* LEETCODE QUESTION ******************
 
@@ -25,6 +27,8 @@ The number of nodes in the tree is in the range [0, 104].
 */
 
 public class MaxDepthOfBinaryTree {
+
+    //Using RECURSION
     public int maxDepth(TreeNode root){
         if (root == null){
             return 0;
@@ -33,5 +37,31 @@ public class MaxDepthOfBinaryTree {
         int left_depth = maxDepth(root.left);
         int right_depth = maxDepth(root.right);
         return Math.max(left_depth, right_depth) + 1;
+    }
+
+
+    //Using Iteration
+    public int maximumDepth(TreeNode root){
+        LinkedList<TreeNode> stack = new LinkedList<>();
+        LinkedList<Integer> depths = new LinkedList<>();
+
+        if (root == null) {return 0;} 
+
+        stack.add(root);
+        depths.add(1);
+
+        int depth = 0, currentDepth = 0;
+        while (!stack.isEmpty()){
+            root = stack.pollLast();
+            currentDepth = depths.pollLast();
+            if (root != null){
+                depth = Math.max(depth, currentDepth);
+                stack.add(root.left);
+                stack.add(root.right);
+                depths.add(currentDepth + 1);
+                depths.add(currentDepth + 1);
+            }
+        }
+        return depth;
     }
 }
