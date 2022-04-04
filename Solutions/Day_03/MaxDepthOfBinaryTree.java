@@ -51,7 +51,7 @@ public class MaxDepthOfBinaryTree {
         depths.add(1);
 
         int depth = 0, currentDepth = 0;
-        while (!stack.isEmpty()){
+        while (!stack.isEmpty()){   
             root = stack.pollLast();
             currentDepth = depths.pollLast();
             if (root != null){
