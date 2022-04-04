@@ -1,6 +1,6 @@
 public class TopDownTreeRecursion {
     private int answer;
-    private void maximum_depth(TreeNode root, int depth){
+    public void maximum_depth(TreeNode root, int depth){
         if (root == null){
             return;
         }
