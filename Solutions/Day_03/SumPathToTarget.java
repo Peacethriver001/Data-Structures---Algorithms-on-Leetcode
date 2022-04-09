@@ -1,3 +1,4 @@
+//import java.util.LinkedList;
 
 /*
 
@@ -14,18 +15,13 @@ A leaf is a node with no children.
 public class SumPathToTarget {
 
     //Using Recursion
-    public boolean hasSumPath(TreeNode root, int sum){
+    public boolean hasSumPath(TreeNode root, int targetSum){
         if (root == null){
             return false;
         }
 
-        sum -= root.val;
-        if ((root.left == null) && (root.right == null)){ return false; }
-        return (hasSumPath(root.left, sum) || hasSumPath(root.right, sum));
+        targetSum -= root.val;
+        if ((root.left == null) && (root.right == null)){ return (targetSum == 0); }
+        return (hasSumPath(root.left, targetSum) || hasSumPath(root.right, targetSum));
     }
-
-
-
-    //Using Iteration
-
 }
