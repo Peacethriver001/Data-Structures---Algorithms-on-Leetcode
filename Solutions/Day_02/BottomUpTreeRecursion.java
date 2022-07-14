@@ -1,4 +1,4 @@
-public class BottomUpTreeRecurssion {
+public class BottomUpTreeRecursion {
     public int maximum_depth(TreeNode root){
         if(root == null){
             return 0;
