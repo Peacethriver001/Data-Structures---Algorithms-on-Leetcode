@@ -1,7 +1,18 @@
 {
     "java.project.sourcePaths": [
+        "Solutions/SLIDING WINDOW",
+        "Solutions/HackerrankSolutionsForBloomberg",
+        "Solutions/Day_08",
+        "Solutions/Day_07",
+        "Solutions/Day_06",
+        "Solutions/Day_05",
+        "Solutions/Day_04",
+        "Solutions/Day_03",
         "Solutions/Day_02",
         "Solutions/Day-01",
-        "Solutions/Day_03"
+        "Solutions/CodilityTest",
+        "Solutions/Cavista_Preparation",
+        "Solutions/Amazon_Preparation",
+        "Solutions/First_Amazon_Tests"
     ]
 }

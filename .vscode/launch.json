@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SaveThePrisoner",
+            "request": "launch",
+            "mainClass": "SaveThePrisoner",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch LengthOfLongestSubstringTwoDistinct",
+            "request": "launch",
+            "mainClass": "LengthOfLongestSubstringTwoDistinct",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch LonelyInteger",
+            "request": "launch",
+            "mainClass": "LonelyInteger",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeConversion",
+            "request": "launch",
+            "mainClass": "TimeConversion",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiniMax",
+            "request": "launch",
+            "mainClass": "MiniMax",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstUnique_UsingMap",
+            "request": "launch",
+            "mainClass": "FirstUnique_UsingMap",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstUnique",
+            "request": "launch",
+            "mainClass": "FirstUnique",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch JumpCount",
+            "request": "launch",
+            "mainClass": "JumpCount",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddOccurencesInArray",
+            "request": "launch",
+            "mainClass": "OddOccurencesInArray",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsPalindrome2",
+            "request": "launch",
+            "mainClass": "IsPalindrome2",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountGoodMeals",
+            "request": "launch",
+            "mainClass": "CountGoodMeals",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "IsPalindrome",
+            "projectName": "Data-Structures---Algorithms-on-Leetcode_b578be64"
+        }
+    ]
+}
